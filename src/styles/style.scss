@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'fonts';
+@import 'variables';
+@import 'html';
+@import 'auth';
+@import 'dashboard';
+@import 'theme';
+// @import 'animate';
+@import 'global';
+@import 'responsive';
+@import 'LightTheme';
+
+
+.mapOuterDiv > div {
+  width: 100%;
+  height: 100%;
+}
+
+.mapContainer {
+  height: 100% !important;
+}
+
+.ez__Header {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.11);
+}
+
+.mapDirectionHeight {
+  height: 500px;
+}
+
+.imageModalHeight {
+  height: 500px;
+  @include Media(575) {
+    height: 300px;
+  }
+}
+
+//RDVP
+.rdvpColor {
+  background: -webkit-linear-gradient(right, #1b1564, #01c38d, #1b1564);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//Loader
+@keyframes ScaleInOut {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.transparency {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dot1 {
+  width: 15px;
+  height: 15px;
+  animation: ScaleInOut 0.6s ease-in-out 0.2s infinite alternate;
+}
+
+.dot2 {
+  width: 15px;
+  height: 15px;
+  animation: ScaleInOut 0.6s ease-in-out 0.4s infinite alternate;
+}
+
+.dot3 {
+  width: 15px;
+  height: 15px;
+  animation: ScaleInOut 0.6s ease-in-out 0.6s infinite alternate;
+}
+
+//Checkboxes Style
+input[type=checkbox] {
+  accent-color: #7C86FF;
+}
+
+//Fonts Classes
+.regular {
+  font-family: 'metropolisregular';
+}
+.medium {
+  font-family: 'metropolismedium';
+}
+.semibold {
+  font-family: 'metropolissemi_bold';
+}
+.thin {
+  font-family: 'metropolisthin';
+}
+.bold {
+  font-family: 'metropolisbold';
+}
+
+.contactFooter {
+  width: 445px;
+  @include Media(767) {
+    width: 100%;
+  }
+  form input {
+    width: calc(100% - 135px);
+  }
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+// Scroll bar style
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #151d48;
+  @include BorRadius(8px);
+}
+
+.headerLink {
+  position: relative;
+  &.active {
+    color: #848dff;
+  }
+}
+
+.highcharts-credits {
+  display: none;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  // stroke: #f5f8fe !important;
+  stroke: var(--graphSecondary) !important;
+}
+.CircularProgressbar-path {
+  // stroke: #2dd4bf !important;
+  stroke: var(--ActiveColor)!important;
+}
+
+.homeSlideHeight {
+  height: 400px;
+  @include Media(937) {
+  
+    height: 250px;
+  }
+  @include Media(767) {
+    height: 350px;
+  }
+  @include Media(580) {
+    height: 200px;
+  }
+}
+body .datePicker-border .react-datepicker__input-container input{
+  background-color: transparent!important;
+}
+.footer-copyright {
+  border-top: 1px solid #3566d4;
+  padding: 10px 0px;
+  background-image: linear-gradient(to right, #148f68, #123dca, #113bcb);
+}
+.footer-top ul li:hover {
+  color: var(--PARApproved)!important;
+}
+// .bg-benSecondary {
+//   background: var(--PARApproved);
+// }
+
+.border_blue {
+  border-color: var(--ActiveColor);
+}
+
+.align-center {
+  align-items: center;
+}
+
+@media screen and (max-width:1024px){
+  .homeBanner .max-w-benContainer.mx-auto {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+.scrollbar {
+  .nav {
+    
+    &__wrapper {
+      position: fixed;
+      height: 100vh;
+      padding: 30px;
+      display: flex;
+      flex-flow: column nowrap;
+      //justify-content: flex-end;
+      z-index: 1000;
+    }
+    &__title {
+      font-size: 32px;
+      font-weight: 300;
+      margin: 0 0 0.25em;
+      width: 300px;
+      height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    }
+    &__body {
+      font-weight: 100;
+      font-size: 18px;
+      font-size: 18px;
+      width: 300px;
+      height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: height 0.3s ease-out, opacity 0.2s ease-out;
+    }
+  }
+  .side_nav {
+    li {
+      position: relative;
+      color: #333;
+      margin-bottom: 1em;
+      &:last-child:after {
+        border-left: 0;
+      }
+      &:after {
+        content: "";
+        border-left: 3px solid #333;
+        border-top:  3px solid #333;
+        height: 54px;
+        width: 20px;
+        position: absolute;
+        left: -20px;
+        top: 15px;
+      }
+     
+
+      a {
+        display: block;
+        padding: 0;
+        transition: all 0.15s ease-out;
+        .nav__counter {
+          font-size: 20px;
+        }
+        &:hover {
+          background-color: transparent;
+          padding-left: 1em;
+        }
+
+        &:focus {
+          background-color: transparent;
+        }
+      }
+
+      &.active {
+        pointer-events: none;
+        padding-left: 1em;
+
+        &:after {
+          width: 35px;
+          height: 400px;
+          top: 35px;
+        }
+
+        .nav__counter {
+          font-size: 48px;
+        }
+        .nav__title {
+          height: 40px;
+          opacity: 1;
+          overflow: visible;
+        }
+        .nav__body {
+          height: 120px;
+          opacity: 1;
+          overflow: visible;
+          font-weight: 400;
+        }
+        
+       }
+    }
+  }
+}

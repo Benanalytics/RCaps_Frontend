@@ -1,0 +1,73 @@
+/* Calendar.css */
+
+/* Style for the calendar container */
+.react-calendar {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 500px; /* Increase the max-width as needed */
+  margin: 0 auto;
+}
+
+/* Style for the calendar table */
+.react-calendar__month-view {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+//   table-layout: fixed;
+}
+
+/* Style for calendar navigation buttons */
+.react-calendar__navigation button {
+  background-color: #3174ad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style for the week day names */
+.react-calendar__month-view__weekdays {
+  display: flex;
+  background-color: skyblue; /* Set a transparent background for the week day names */
+}
+
+/* Style for each individual week day name */
+.react-calendar__month-view__weekdays__weekday {
+    padding: 10px;
+    text-align: center;
+    width: 14.28%;
+    background-color: #ccc; /* Set gray color for the week day names */
+    color: #738276; /* Set text color for the week day names */
+     font-weight: bold;
+    border-bottom: none; /* Remove the border under week day names */
+  }
+
+/* Style for calendar day tiles */
+.react-calendar__tile {
+  padding: 10px;
+  cursor: pointer;
+//   background-color: #fff;
+//    border: 1px solid #ccc;
+  display: table-cell;
+  text-align: center;
+  width: 50.28%;
+  height: 70px;
+}
+
+/* Style for selected day */
+.react-calendar__tile--active {
+//   background-color: #3174ad;
+  color: #fff;
+//   border: 1px solid #265e91;
+}
+
+
+.react-calendar__tile--now {
+    background-color: #00008B; /* Dark blue color for the current date */
+    font-weight: bold;
+    color: #008000; /* Text color for the current date */
+  }

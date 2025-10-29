@@ -1,0 +1,1224 @@
+@media (min-width:576px) {
+  .max-w-benContainer {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .max-w-benContainer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .max-w-benContainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .max-w-benContainer {
+    max-width: 1170px;
+  }
+
+  .Home_aboutLayout .homeAbout_leftContent,
+  .CoporateAnalysis .CoporateAnalysis_right .homeAbout_leftContent {
+    max-width: 540px;
+  }
+
+}
+
+@media (min-width:1299px) {
+  body .page-wrapper {
+    margin-left: 240px;
+    width: calc(100% - 240px);
+
+    .navbar {
+      width: calc(100% - 240px);
+      margin-left: 240px;
+    }
+  }
+  .overall_budgetExecution .flex.items-center.gap-x-3 {
+    gap: 2px;
+  }
+}
+
+@media (min-width:1580px) {
+  .themecalendar .react-calendar__year-view__months button abbr {
+    width: 90%;
+  }
+}
+@media (min-width:1700px) {
+  body .page-wrapper .page-content .ben_LandingPage .overall_utilization_graph{
+    width: 300px !important;
+  }
+
+}
+@media (min-width:1800px) {
+  body .page-wrapper .total_landingGraph {
+    width: 47%;
+  }
+  body .page-wrapper .total_landingGraph.graph_content {
+    width: 60%;
+  }
+}
+
+
+@media (max-width:1680px) {
+
+  body .page-wrapper .total_landingGraph {
+    width: 55%;
+  }
+  body .page-wrapper .total_landingGraph.graph_content {
+    width: 60%;
+  }
+  .card .cardBody {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width:1600px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:1580px) {
+  .themecalendar .react-calendar__year-view__months button abbr {
+    width: 100%;
+  }
+  .top_three_sectorLayout .chart_left {
+    padding: 10px 0;
+  }
+  
+    .custm_datepicker .DateInput_input{
+       font-size: 11px;
+    }
+}
+
+@media (max-width:1538px) {
+
+  .theme-table .f13,
+  .pagination-Layout .f13 {
+    font-size: 0.75rem;
+  }
+
+  .theme-table .px-3 {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  .theme-table .py-3 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  // .ez__PageLayout  .max-w-benContainer {
+  //   width: 76%;
+  // }
+
+}
+
+@media (max-width:1440px) {
+  .card .cardBody {
+    padding: 1.2rem;
+  }
+
+  .cardTitile-Spacer {
+    padding: 1rem 1.2rem;
+  }
+
+  .badge {
+    padding: 0.25em;
+    font-size: 9px !important;
+  }
+  .HomeBanner_layout .HomeBanner_img{
+    width: 500px;
+  }
+   .HomeBanner_layout .HomeBanner_img img {
+    max-width: 100%;
+  }
+  .HomeBanner_layout .HomeBanner_title {
+    max-width: 100%;
+  }
+  .Strategic_Content .homeAbout_right img{
+    max-width: 70%;
+  }
+  .HomeBanner_layout{
+    padding:40px 0px;
+  }
+  // .input-box {
+  //   color: var(--textColor);
+  //   border: 1px solid var(--borderColor);
+  //   height: 44px;
+  //  }
+
+}
+
+@media (max-width:1400px) {
+  html {
+    font-size: 12px;
+  }
+
+  .themecalendar .react-calendar__year-view__months button abbr {
+    height: 45px;
+    width: 45px;
+  }
+
+  .py-2 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .px-2 {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  body .datePicker-border .react-datepicker__input-container .react-datepicker__calendar-icon {
+    width: 35px;
+    padding: 0px 11px;
+  }
+
+  .input-box{
+    height: 34px;
+  }
+  
+  .custm_datepicker .DateInput_input{
+    height: 33px;
+  }
+  body select.input-box {
+    background-size: 13px;
+  }
+
+  // body .datePicker-border .react-datepicker__input-container input{
+  //     height: 36px;
+  //     box-sizing: border-box;
+  //   }
+  //   body .datePicker-border .react-datepicker__input-container,
+  // body .datePicker-border .react-datepicker__input-container .react-datepicker__calendar-icon{
+  //     height: 32px;
+  //   }
+}
+
+@media (max-width:1380px) {
+  body .page-wrapper .total_landingGraph {
+    width: 63%;
+  }
+  body .page-wrapper .total_landingGraph.graph_content {
+    width: 70%;
+  }
+  .icon_bg {
+    width: 39px;
+    height: 35px;
+    padding: 9px;
+  }
+
+  .key_statsLayout .Keystats_chart {
+    width: 55px;
+    height: 55px;
+  }
+  .Thematic_PrioritiesCards.two_col .features_col .features_col_img{
+    width: 45px;
+    height: 45px;
+}
+
+  .about_performance .features_col_img, 
+  .strategic_plan .features_col_img {
+    width: 55px;
+    height: 55px;
+  }
+  // .strategic_plan .features_col{
+  //   min-height:287px;
+  // }
+  .strategic_plan .features_col h3{
+    min-height:41px;
+  }
+
+  .icon_bg.iconlg_bg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .badge.badge-ltgreen {
+    padding: 0px 2px;
+  }
+  .tick_icon {
+    width: 18px;
+    height: 18px;
+   }
+   
+  body .page-wrapper .page-content .ben_LandingPage .GeopatitalMap .overall_utilization .uac_data {
+    flex: inherit;
+    width: 100%;
+    border-left: 0;
+  }
+  // .overall_utilization li + li{
+  //   border-top: 1px solid #d4d6fd!important;
+  // }
+  body .page-wrapper .page-content .ben_LandingPage .overall_utilization  .GeopatitalMap{
+    flex-wrap:wrap;
+  }
+  body .page-wrapper .page-content .ben_LandingPage .overall_utilization  .GeopatitalMap  li {
+    list-style: disc;
+    padding: 5px 0px;
+    width: 100%;
+    flex: inherit!important;
+    border-left:0;
+  }
+  .overall_utilization .cardBody {
+    padding: 15px;
+}
+  body .page-wrapper .page-content .ben_LandingPage .overall_utilization .GeopatitalMap {
+      padding-left: 20px;
+  }
+  body .page-wrapper .page-content .ben_LandingPage  .overall_utilization .overallOverheads_Account br{
+      display: none;
+
+  }
+}
+
+@media (max-width:1299px) {
+  html {
+    font-size: 12px;
+  }
+  .tick_icon {
+    width: 20px;
+    height: 20px;
+}
+  .regionalLayout .md\:grid-cols-4,
+  .complexLayout .md\:grid-cols-4 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body .page-wrapper .navbar .navbar-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  body .page-wrapper .page-content {
+    padding: 10px 15px;
+  }
+
+  body .sidebar .sidebar-header,
+  body .sidebar {
+    width: 220px;
+  }
+
+  body .page-wrapper,
+  body .page-wrapper,
+  body .page-wrapper .navbar {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+  }
+
+  .shareTotalIncome .col-box {
+    width: 48%;
+  }
+
+  .icon_bg.iconlg_bg {
+    width: 35px;
+    height: 35px;
+  }
+
+  // .input-box{
+  //   height:34px;
+  // }
+  // body .datePicker-border .react-datepicker__input-container input{
+  //   height: 98%;
+  //   }
+  //   body .datePicker-border .react-datepicker__input-container,
+  // body .datePicker-border .react-datepicker__input-container .react-datepicker__calendar-icon{
+  //     height: 34px;
+  //   }
+  .w-50.col-box {
+    width: 48%;
+  }
+
+  .input-box {
+    height: 30px;
+  }
+  .custm_datepicker .DateInput_input{
+    height: 29px;
+  }
+  // .icon_bg {
+  //   width: 55px;
+  //   height: 45px;
+  // }
+  .icon_bg {
+    width: 37px;
+    height: 32px;
+    padding: 8px 8px;
+  }
+
+  .themebtn {
+    padding: 5px 15px;
+  }
+
+  .label_withNumber label {
+    min-width: 70px;
+  }
+  .organization_structureBtn{
+  max-width:100%;
+  }
+
+// .growth_layout .grid_boxes {
+//     gap: 1%;
+// }
+}
+
+@media (max-width:1213px) {
+  .ben__HomePage .react-stacked-center-carousel {
+    height: 200px !important;
+  }
+}
+
+@media (max-width:1199px) {
+  // html {
+  //   font-size: 10px;
+  // }
+
+  .Sovereign-OperationsImg {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .Sovereign-OperationsImg i {
+    font-size: 22px;
+  }
+
+  .homeBanner .slick-slide .h-96 {
+    height: auto;
+  }
+
+  .input-box{
+    height: 28px;
+  }
+  .custm_datepicker .DateInput_input{
+    height: 27px;
+  }
+  .keydeliverablegraph {
+    width: 70px;
+  }
+
+  body .sidebar .sidebar-header,
+  body .sidebar {
+    width: 200px;
+  }
+
+  body .page-wrapper,
+  body .page-wrapper,
+  body .page-wrapper .navbar {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+
+  .staffing_workstationTop ul li {
+    margin: 5px 0px;
+  }
+
+  // .Home_aboutLayout  .homeAbout_left,
+  // .CoporateAnalysis .CoporateAnalysis_right {
+  //   padding-left: 30px;
+  //   padding-right: 30px;
+  // }
+
+  .Home_aboutLayout .homeAbout_leftContent,
+  .CoporateAnalysis .homeAbout_leftContent {
+    max-width: 435px;
+  }
+
+  .features_col .f18 {
+    font-size: 16px;
+  }
+
+  .gradient_btn.btn,
+  .gradient_btn.btn .ri-arrow-right-line.f16 {
+    font-size: 13px;
+  }
+
+  .ez__PageLayout p,
+  .ez__PageLayout li .f16,
+  i.ri-arrow-right-line.f16 {
+    font-size: 13px;
+  }
+
+  .ez__PageLayout h5{
+    font-size:16px;
+  }
+  .LendingApproval_right .LendingApproval_heading h6 {
+    font-size: 12px;
+  }
+
+  .footer_content h4
+  .list_data .f13 {
+    font-size: 11px;
+  }
+
+  .footer_col p,
+  .footer-copyright .cprytDiv,
+  .footer-top .checkLabel label,
+  .financial_listContent .f12,
+  .list_data .f12,
+  .email_box input {
+    font-size: 9px;
+  }
+
+  .footer_links li {
+    min-width: 80px;
+  }
+
+  .footer_content .footer_col .f13,
+  .footer_content .footer_links li,
+  .footer_links li,
+  .footer-copyright .cprytDiv p,
+  .list_data .f13 {
+    font-size: 10px;
+  }
+  .HomeBanner_layout:before{
+    height: 190px;
+    width: 140px;
+  }
+  .HomeBanner_layout:after{
+    width:650px;
+  }
+  .HomeBanner_layout .HomeBanner_title {
+    max-width: 100%;
+  }
+  // .HomeBanner_layout .HomeBanner_img img {
+  //   max-width: 80%;
+  // }
+  .growth_layout .grid_boxes .col-box {
+    width: 49%!important;
+    margin: 5px 0px;
+  }
+  body .growth_layout .grid_boxes {
+    flex-wrap: wrap!important;
+  }
+  .HomeBanner_layout .HomeBanner_img {
+    width: 450px;
+  }
+}
+
+@media (max-width:1140px) {
+  .shareTotalIncome.grid_boxes .col-box {
+    width: 48%;
+    margin: 6px 0px;
+  }
+
+  .grid_boxes.CardDivgap {
+    gap: 1%;
+  }
+
+  .grid-margin .col-box {
+    width: 24%;
+    flex: inherit;
+    margin: 5px 0px 0px;
+  }
+
+  .col-box.col-full {
+    width: 100%;
+    flex: inherit;
+    margin: 0px;
+  }
+  .infrastructure_layout  .col-box.col-full.mb-4 {
+    margin-bottom: 10px;
+  }
+  .workProgramme_Layout .col-box {
+    width: 100%;
+  }
+  .summaryBox{
+    width:30%;
+  }
+}
+
+@media (max-width:1025px) {
+  .staffing_workstationTop ul li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (max-width:1023px) {
+  html {
+    font-size: 12px;
+  }
+
+  .sidebar-folded {
+    .sidebar {
+      width: 100%;
+    }
+
+    // .TotalLanding-block .cardDiv.lg\:grid-cols-3 {
+    //   grid-template-columns: repeat(2, minmax(0, 1fr));
+    // }
+  }
+
+
+  body .page-wrapper,
+  body .page-wrapper .navbar {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .icon_bg {
+    width: 32px;
+    height: 30px;
+    padding: 8px;
+  }
+
+  .badge {
+    font-size: 7px !important;
+  }
+
+  .HomeBanner_layout .HomeBanner_img {
+    width: 280px;
+  }
+}
+
+@media (max-width:991px) {
+
+  body .md\:grid-cols-4,
+  .regionalLayout .md\:grid-cols-4,
+  .complexLayout .md\:grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .md\:grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .md\:grid-cols-3.workProgramme_Layout,
+  body .md\:grid-cols-3.grid-md-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body .md\:grid-cols-3.grid-md-3 .grid_outliers-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .page-wrapper .total_landingGraph {
+    width: 55%;
+  }
+  body .page-wrapper .growth_layout .total_landingGraph.graph_content {
+    width: 65%;
+  }
+  .chart-small {
+    width: 50px;
+  }
+
+  .Home_aboutLayout .homeAbout_leftContent,
+  .CoporateAnalysis .homeAbout_leftContent {
+    max-width: 315px;
+  }
+
+  .grid_boxes .col-box {
+    width: 23.5%;
+    flex: inherit;
+  }
+
+  .HomeBanner_layout .HomeBanner_title {
+    max-width: 100%;
+  }
+
+  .pb_80 {
+    padding-bottom: 60px;
+  }
+
+  .pt_80 {
+    padding-top: 60px;
+  }
+
+  .pt_80 {
+    padding-top: 60px;
+  }
+
+  .pb_80 {
+    padding-bottom: 60px;
+  }
+
+  .footer-top {
+    padding: 60px 0px;
+  }
+
+  .features_cards .features_col {
+    width: 48.5%;
+    padding: 15px 13px;
+  }
+
+  .Strategic_Content .homeAbout_right .headimg_rightImg img {
+    max-width: 100%;
+  }
+
+  .Strategic_Content .headimg_rightImg {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .email_box {
+    height: 40px;
+  }
+
+  .email_box .btn {
+    height: 100%;
+  }
+  .slick-dots {
+    bottom: -15px;
+}
+  .Rdvp_complex_content .LendingApproval_right {
+    width: 280px;
+  }
+  .Rdvp_complex_content .LendingApproval_Left{
+    width: calc(100% - 300px);
+  }
+  .Rdvp_complex_content .LendingApproval_right .rdvp_conplexShape,
+  .Rdvp_complex .task_manager_content{
+  width: 250px;
+  }
+  .Rdvp_complex .task_manager::before {
+    height: 140px;
+    width: 130px;
+  }
+  .Developemnet_financing_layout .steps_layout .homeAbout_left,
+   .Developemnet_financing_layout .steps_layout .homeAbout_right{
+    width:180px;
+  }
+  .Thematic_PrioritiesCards.two_col .features_col .features_col_img {
+    width: 35px;
+    height: 35px;
+   }
+   .top_heading p br{
+   display: none;
+   }
+   .summaryBox {
+    width: 30%;
+  }
+  .outliers_item {
+    border-right:1px solid;
+  }
+  .outliers_item:nth-child(2n){
+    border-left:0px;
+  }
+  .chart_sm40.w-40 {
+    width: 40%;
+  }
+}
+
+@media (max-width:899px) {
+  .brag_readiness .BragContent {
+    width: 33.33%;
+ }
+}
+
+@media (max-width:767.5px) {
+  .email_box {
+    height: 40px;
+  }
+  .HomeBanner_layout{
+    padding:40px 0px;
+  }
+  .Strategic_Content .homeAbout_right img,
+  .HomeBanner_layout .HomeBanner_img img{
+    max-width:100%;
+  }
+ 
+  .CoporateAnalysis .CoporateAnalysis_left {
+    background: transparent;
+    border: 0;
+  }
+  .CoporateAnalysis .CoporateAnalysis_Content{
+    background: #fff;
+  }
+  .CoporateAnalysis .CoporateAnalysis_right{
+    border-left:0px;
+  }
+
+  .Strategic_Content .homeAbout_left,
+  .Strategic_Content .homeAbout_right,
+  .lendingApproval_Content .LendingApproval_Left,
+  .lendingApproval_Content .LendingApproval_right,
+  .homeAbout_Content .homeAbout_left,
+  .homeAbout_Content .homeAbout_right,
+  .CoporateAnalysis_Content .CoporateAnalysis_left,
+  .CoporateAnalysis_Content .CoporateAnalysis_right,
+  .HomeBanner_layout .HomeBanner_leftpanel,
+  .HomeBanner_layout .HomeBanner_img {
+    width: 100%;
+  }
+
+  .CoporateAnalysis .homeAbout_leftContent,
+  .Home_aboutLayout .homeAbout_leftContent {
+    margin: 0px;
+    max-width: inherit;
+  }
+
+  .CoporateAnalysis_Content {
+    flex-direction: column-reverse;
+  }
+
+  .Home_aboutLayout .homeAbout_right,
+  .CoporateAnalysis_right {
+    padding: 20px 15px;
+  }
+
+  .Home_aboutLayout .homeAbout_left,
+  .CoporateAnalysis .CoporateAnalysis_left,
+  .Home_aboutLayout .homeAbout_right,
+  .CoporateAnalysis .CoporateAnalysis_right {
+    // max-width: 540px;
+    // margin: auto;
+    max-width: 510px;
+    margin: auto;
+    padding: 30px 0px
+  }
+
+  .HomeBanner_layout .HomeBanner_content{
+  flex-direction: column-reverse;
+  }
+  .growth_layout .grid_boxes .col-box {
+    width: 100%!important;
+  }
+
+  .pb_80 {
+    padding-bottom: 40px;
+  }
+
+  .pt_80 {
+    padding-top: 40px;
+  }
+
+  .pt_80 {
+    padding-top: 40px;
+  }
+
+  .pb_80 {
+    padding-bottom: 40px;
+  }
+
+  body .md\:grid-cols-4.grid-cols-1,
+  .TotalLanding-block .cardDiv.lg\:grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .w-40 {
+    width: 100%;
+  }
+
+  body .page-wrapper .total_landingGraph {
+    width: 45%;
+  }
+  body .page-wrapper .total_landingGraph.graph_content {
+    width: 60%;
+  }
+  body .md\:grid-cols-3.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .ben_FiltersAction {
+    flex-wrap: wrap;
+  }
+
+  body .page-wrapper .navbar .navbar-content {
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+
+  .footer-content p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .infrastructure_left,
+  .infrastructure_grid {
+    width: 100%;
+    // margin: 0;
+  }
+
+  .infrastructure_layout,
+  .top_three_sectorLayout{
+    flex-wrap: wrap;
+  }
+
+  body .page-wrapper .page-content .ben_LandingPage .GeopatitalMap li {
+    flex: inherit;
+    width: 100%;
+  }
+
+  body .page-wrapper .page-content .ben_LandingPage .GeopatitalMap.chart_bottom li {
+    flex: 1;
+  }
+
+  .themecalendar .react-calendar__navigation__label span {
+    font-size: .8125rem;
+  }
+
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next2-button::before {
+    line-height: 24px;
+    font-size: .8125rem;
+  }
+
+  .themecalendar .react-calendar__year-view__months button abbr {
+    font-size: .8125rem;
+    width: 100%;
+  }
+
+  body .md\:grid-cols-3.grid-md-3 .grid_outliers-2,
+  body .md\:grid-cols-3.workProgramme_Layout {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .outliers_layout .outliers_item {
+    width: 33.33%;
+    padding: 10px 0px;
+    height: inherit;
+  }
+
+  .outliers_layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .outliers_content .cardBody.flex.flex-col.h100 {
+    height: inherit;
+  }
+
+  .CardDivgap {
+    gap: 0px;
+  }
+
+  .workProgramme_Layout .col-box+.col-box {
+    margin-top: 8px;
+  }
+
+  // .homeAbout_left,
+  // .homeAbout_right .CoporateAnalysis_Content .CoporateAnalysis_left,
+  // .CoporateAnalysis_Content .CoporateAnalysis_right {
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  // }
+  .Rdvp_complex_content .LendingApproval_right .rdvp_conplexShape, .Rdvp_complex .task_manager_content {
+    max-width: 93%;
+    width: 100%;
+  }
+  .Rdvp_complex_content .LendingApproval_right{
+    gap:10px;
+  }
+  .Strategic_Content .homeAbout_right .headimg_rightImg img {
+    margin-left: 0px;
+  }
+  .Strategic_Content .homeAbout_right img{
+   margin-top:15px;
+   margin-left:0px;
+  }
+  .Developemnet_financing_layout .steps_layout .homeAbout_left, 
+  .Developemnet_financing_layout .steps_layout .homeAbout_right{
+    width:100%;
+  }
+  .Financing_center {
+    order: 3;
+    max-width: 350px;
+    margin: 20px auto 0px;
+  }
+  .Developemnet_financing_layout .steps_layout .homeAbout_right{
+    margin-top:15px;
+  }
+  .Developemnet_financing_layout .steps_layout{
+    margin-top: 40px;
+  }
+  .gradient_btn2, .gradient_btn{
+    padding:5px 20px;
+  }
+  .Financial_operationsLayout .homeAbout_right {
+    margin-top:15px;
+  }
+  .strategic_plan .features_cards .features_col{
+    width:100%;
+  }
+  .cardTitle.flex{
+    flex-wrap:wrap;
+  }
+  .TotalLanding-block .cardDiv.CardDivgap,
+  .regionalLayout .grid.CardDivgap,
+  .complexLayout .grid.CardDivgap{
+    gap: 1.5rem;
+  }
+  .calendar_progress {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .chart_left {
+    padding: 15px 0;
+  }
+  .regional_project_content .w-35 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .workLoad_keystats.grid_boxes.CardDivgap,
+   .shareTotalIncome.grid_boxes.CardDivgap{
+   margin-bottom: 1.5rem;
+  }
+  .cardDiv.CardDivgap.overall_budgetExecution {
+    gap: 1.5rem;
+  }  
+  .budget_performanceLayout .w-50{
+    width: 100%;
+    margin-top:10px;
+  }
+  .summaryBox {
+    width: 100%;
+  }
+  .taskManager_card .flex1{
+    padding-top:5px;
+    padding-bottom: 5px;
+  }
+  .top_three_sectorContent {
+    width: 40%;
+  }
+  .wpa_overallBudget .w-70 {
+    width: 100%;
+   }
+   .headerLink {
+    display: inline-block;
+    width: 100%;
+}
+}
+
+@media (max-width:699px) {
+  .grid_boxes .col-box {
+    width: 48.8%;
+    flex: inherit;
+  }
+
+  .infrastructure_layout {
+    flex-wrap: wrap;
+  }
+
+  .carousel_img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .w-70,
+  .w-40 {
+    width: 100%;
+  }
+
+  .icon_bg.iconlg_bg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .py-3 {
+    padding-top: 0.38rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .px-3 {
+    padding-left: 0.38rem;
+    padding-right: 0.35rem;
+  }
+
+  .py-2 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+  }
+
+  .px-2 {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+  }
+
+  .card.CardDivgap {
+    gap: 0px;
+  }
+
+  .distribution_complex {
+    flex-wrap: wrap;
+  }
+
+  .distribution_complex .BgGreen {
+    width: 100%;
+  }
+}
+
+@media (max-width:639px) {
+  .cardDiv.CardDivgap.overall_budgetExecution {
+    gap: 0px;
+  }
+}
+@media (max-width:575px) {
+  .features_cards .features_col {
+    width: 100%;
+    gap: inherit;
+  }
+
+  .footer_col {
+    width: 100%;
+  }
+
+  .features_cards {
+    margin-top: 25px;
+  }
+
+  .get_inTouch .email_box {
+    max-width: 300px;
+  }
+
+  .secondary_title {
+    font-size: 22px;
+  }
+
+  .CallTo_actionLayout .CallTo_actionLeft {
+    width: 100%;
+  }
+
+  .CallTo_actionLayout .CallTo_actionContent .CallTo_action_right {
+    width: 100%;
+  }
+
+  .footer-top {
+    padding: 40px 0px;
+  }
+
+  // .Home_aboutLayout .homeAbout_left,
+  // .CoporateAnalysis .CoporateAnalysis_left {
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  // }
+  .Home_aboutLayout .homeAbout_left,
+  .CoporateAnalysis .CoporateAnalysis_left,
+  .Home_aboutLayout .homeAbout_right,
+  .CoporateAnalysis .CoporateAnalysis_right {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: inherit;
+  }
+  .brag_readiness .BragContent {
+      width: 100%;
+      padding: 0;
+      border: 0;
+      margin: 8px 0px;
+  }
+
+}
+
+@media (max-width:480px) {
+  html {
+    font-size: 10px;
+  }
+
+  .CardDivgap {
+    gap: 0rem;
+  }
+
+  .outliers_layout .outliers_item {
+    width: 50%;
+  }
+
+  .workLoad_keystats.grid_boxes .col-box {
+    width: 100%;
+    margin: 6px 0px;
+  }
+
+  .grid_boxes .col-box {
+    width: 100%;
+    flex: inherit;
+  }
+
+  .shareTotalIncome.grid_boxes .col-box {
+    width: 100%;
+    margin: 6px 0px;
+  }
+
+  .ongoing_projects .project_count {
+    flex: inherit;
+    width: 100%;
+    border-left: 0px;
+  }
+
+  .ongoing_projects .project_count+.project_count {
+    border-top: 1px solid var(--borderColor);
+  }
+  .workLoad_keystats.grid_boxes.CardDivgap,
+  .shareTotalIncome.grid_boxes.CardDivgap {
+      grid-row-gap: 0px!important;
+  }
+  .card  .cardBody .overall_utilization_graph {
+    width: 100%!important;
+  }
+  .key_statsLayout.workLoad_keystats.grid_boxes.CardDivgap {
+    margin-bottom: 1.5rem;
+  }
+  .key_statsLayout.workLoad_keystats.grid_boxes.CardDivgap.flex-col{
+    margin-bottom:0px;
+  }
+  .overall_utilization {
+      width: 100%;
+  }
+  .calendar_progress {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:399px) {
+
+  .lendingFilter_Action .input-box,
+  .lendingFilter_Action .input-box .react-datepicker-wrapper {
+    width: 100%;
+  }
+
+  .themecalendar .react-calendar__month-view__days .react-calendar__tile,
+  .themecalendar .react-calendar__year-view .react-calendar__tile,
+  .themecalendar .react-calendar__year-view .react-calendar__tile:hover,
+  .react-calendar__month-view__weekdays__weekday {
+    padding: 2px;
+  }
+
+  .themecalendar .react-calendar__month-view__days .react-calendar__tile abbr {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next2-button::before {
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .themecalendar .react-calendar__navigation button,
+  .themecalendar .react-calendar__navigation button:hover {
+    min-width: 24px;
+    height: 24px;
+  }
+
+  .themecalendar .react-calendar__navigation__label span {
+    font-size: 12px;
+  }
+
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button::before,
+  .themecalendar .react-calendar__navigation__arrow.react-calendar__navigation__next2-button::before {
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .themecalendar .react-calendar__year-view__months button abbr {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+@media (max-width:340px) {
+  .chart_bottom li {
+    padding: 5px 2px;
+    gap: 5px;
+  }
+}

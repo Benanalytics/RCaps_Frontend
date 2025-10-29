@@ -1,0 +1,31 @@
+.ben__DashboardLinks {
+  position: relative;
+  .active {
+    color: #202020;
+    border-color: #202020;
+  }
+}
+
+.ben__DashboardSidebarUl {
+  position: relative;
+  .active,
+  .active svg {
+    color: #307df0;
+    background: #f5f8fe;
+  }
+}
+
+.ez__HeaderSearch * {
+  color: #808080 !important;
+  background: #f0f1f4 !important;
+  font-size: 1rem;
+  input {
+    background: transparent !important;
+  }
+}
+
+.ez__HeaderSearch input,
+.ez__FormInput input {
+  position: relative;
+  width: calc(100% - 30px);
+}

@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors');
+
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    colors: {
+      ...colors,
+      benPrimary: '#307DF0',
+      benLightBlue: '#7c86ff',
+      benThinBlue: '#D6E5FC',
+      benBlue: '#151D48',
+      benMediumBlue: '#1C4E80',
+      benDarkBlue: '#202020',
+      benThinGray: '#F5F8FE',
+      benLightGray: '#444A6D',
+      benGray: '#737791',
+      benGrayMid: '#ACB1C6',
+      benLightGreen: '#6AB187',
+      benGreen: '#01C38D',
+      benPurple: '#A700FF',
+      benPink: '#F87171',
+      benSecondary: '#04F5D1',
+      benYellow: '#FFA412',
+      benYellowMid: '#FFEE96',
+      benYellowMid2: '#FEBB7E',
+      benYellowMid3: '#FFCE81',
+      benRed: '#ff4d4d',
+      ezBlack: '#1F1F1F',
+      ezLightGreen: '#EBFFEB',
+      ezGreen: '#228B22',
+      ezLightGray: '#AEAEAE',
+      ezLightWhite: '#F0F1F4',
+      ezOrange: '#FFB800',
+      ezOrangeMid: '#FF9D00',
+      ezRed: '#E70B0B',
+      ezMidWhite: '#F5F5F5',
+      ezGray: '#808080',
+    },
+    fontFamily: {
+      metThin: ['metropolisthin', 'sans-serif'],
+      metRegular: ['metropolisregular', 'sans-serif'],
+      medSemiBold: ['metropolissemi_bold', 'sans-serif'],
+      metMedium: ['metropolismedium', 'sans-serif'],
+      metBold: ['metropolisbold', 'sans-serif'],
+    },
+    extend: {
+      maxWidth: {
+        benContainer: '1445px',
+        benSmContainer: '980px',
+        benMediumContainer: '1280px',
+      },
+      height: {
+        400: '400px',
+        500: '500px',
+      },
+    },
+  },
+  plugins: [],
+};
